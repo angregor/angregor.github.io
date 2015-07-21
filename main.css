@@ -2,3 +2,14 @@ body {
 	background-color: yellow;
 	text-align: center;
 }
+
+#opener {
+  border: 2px solid white;
+  color: black;
+  padding: 10% 10% 10% 10%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  opacity: 0.9;
+  display: inline-block;
+}
