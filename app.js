@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	$("body").text("Hey!");
+	/*
+	Do Nothing For Now
+	*/
 });
