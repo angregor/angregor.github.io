@@ -8,3 +8,11 @@ body {
   padding: 5% 5% 5% 5%;
   width: 50%;
 }
+
+#linkstosites {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
