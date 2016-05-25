@@ -1,20 +1,34 @@
 body {
-	background-color: white;
+	background-image: url("./images/officebackground.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	text-align: center;
 }
 
 #opener {
   color: black;
   padding: 5% 5% 5% 5%;
-  width: 50%;
+  width: 100%;
+	height: 100%;
 }
 
-#linkstosites {
-	font-size: 20px;
-}
-
-#contactinfo {
-	font-size: 10px;
+#welcomebox {
+	border: 2px solid white;
+  color: black;
+  margin-top: 2%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  opacity: 0.95;
+  display: inline-block;
+	height:100%;
+  width:50%;
 }
 
 a {
