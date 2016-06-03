@@ -10,58 +10,24 @@ html {
 
 body {
   height:100%;
-  width: 100%;
-  margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
- padding: 0;
- border-collapse:collapse;
 }
 
 .main {
   height: 100%;
-  width: 100%;
-  margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
  padding: 0;
  border-collapse:collapse;
 }
 
-.menu_opener_comb_desktop {
+#menu_opener_comb {
     height: 40%;
     width: 100%;
-    background-image: url("./images/volcano_blur_bg.png") !important;
+    background-image: url("./images/volcano_bg.jpg") !important;
     background-repeat: no-repeat;
-    background-position: center;
+    background: absolute;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  	-webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-
-    color:white;
-}
-
-.menu_opener_comb_phone {
-    height: 40%;
-    width: 100%;
-    background-image: url("./images/volcano_blur_bg_phones.jpg") !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  	-webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
 
     color:white;
 }
@@ -91,7 +57,7 @@ a {
 
 #opener {
   height:80%;
-  padding-top: 20%;
+  padding-top: 10%;
   font-size: 1em;
   text-align: center;
 }
@@ -106,4 +72,40 @@ a {
   height: 5%;
   width: 100%;
   background-color: black;
+}
+
+@media (max-width: 600px) {
+  html {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px
+   border-collapse:collapse;
+  }
+  #menu_opener_comb {
+      height: 40%;
+      width: 100%;
+      background-image: url("./images/volcano_bg.jpg") !important;
+      background-repeat: no-repeat;
+      background: absolute;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      color:white;
+  }
+  #featured_clothes {
+    height: 53%;
+    width: 100%;
+    background-color: white;
+  }
+
+  #footer {
+    height: 7%;
+    width: 100%;
+    background-color: black;
+  }
 }
