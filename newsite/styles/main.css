@@ -30,10 +30,28 @@ body {
  border-collapse:collapse;
 }
 
-#menu_opener_comb {
+.menu_opener_comb_desktop {
     height: 40%;
     width: 100%;
     background-image: url("./images/volcano_blur_bg.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+    color:white;
+}
+
+.menu_opener_comb_phone {
+    height: 40%;
+    width: 100%;
+    background-image: url("./images/volcano_blur_bg_phones.jpg") !important;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
