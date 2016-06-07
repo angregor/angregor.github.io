@@ -131,8 +131,8 @@ a, a:hover, a:visited {
   }
 
   #logo {
-    height: 80%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
   }
 
   #footer {
