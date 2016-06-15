@@ -26,7 +26,7 @@ body {
   padding-right: 25%;
   padding-top:7%;
   width: 100%;
-  height: 80%;
+  height: 60%;
 }
 
 #menu_opener_comb {
@@ -107,8 +107,12 @@ a, a:hover, a:visited, a:link, a:active{
 }
 
 #portfoliolinks {
-	margin-bottom: 10%;
+	font-size:1.5em;
+	text-align: center;
+	align: center;
 }
+
+
 
 
 @media (max-width: 600px) {
@@ -172,7 +176,7 @@ a, a:hover, a:visited, a:link, a:active{
     padding-right: 25%;
     padding-top:6%;
     width: 100%;
-    height: 80%;
+    height: 60%;
   }
   #featured {
     height: 64%;
