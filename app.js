@@ -1,12 +1,4 @@
 $(document).ready(function() {
-  $(window).bind("resize", function() {
-    if($(this).width() < 700) {
-      $('.main').addClass('container-fluid');
-    }
-    else {
-      $('.main').removeClass('container-fluid');
-    }
-  });
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
