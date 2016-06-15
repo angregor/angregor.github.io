@@ -112,12 +112,72 @@ a, a:hover, a:visited, a:link, a:active{
 
 
 @media (max-width: 600px) {
+  html {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px
+   border-collapse:collapse;
+  }
+  body {
+    height:100%;
+		width: 100%;
+  }
+
+  #menu_bar {
+    height:10%;
+		width: 100%;
+    padding-left: 2%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1em;
+  }
+
+	#menu_opener_comb {
+	    height: 25%;
+	    width: 100%;
+	    background-image: linear-gradient(
+	      rgba(0, 0, 0, 0.25),
+	      rgba(0, 0, 0, 0.25)
+	    ), url("./images/workstation.jpg") !important;
+	    background-repeat: no-repeat;
+	    background: absolute;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    color:white;
+	}
+
+  #footer {
+    height: 5%;
+    width: 100%;
+    background-color: black;
+  }
+
   .socialmedia {
     width: 10%;
     height: 100%;
     margin-right: 3%;
     display: inline-block;
     float: right;
+  }
+
+  .main_paragraph {
+    font-size: 1.1em;
+    align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:6%;
+    width: 100%;
+    height: 80%;
+  }
+  #featured {
+    height: 70%;
+    width: 100%;
+    background-color: white;
   }
 }
 */
