@@ -92,7 +92,7 @@ a, a:hover, a:visited, a:link, a:active{
 }
 
 #footer {
-  height: 5%;
+  height: 7%;
   width: 100%;
   background-color: black;
 }
@@ -132,6 +132,22 @@ a, a:hover, a:visited, a:link, a:active{
     margin-bottom: 1%;
     font-size: 1em;
   }
+
+	#menu_opener_comb {
+	    height: 40%;
+	    width: 100%;
+	    background-image: linear-gradient(
+	      rgba(0, 0, 0, 0.25),
+	      rgba(0, 0, 0, 0.25)
+	    ), url("./images/workstation.jpg") !important;
+	    background-repeat: no-repeat;
+	    background: absolute;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    color:white;
+	}
 
   #footer {
     height: 10%;
