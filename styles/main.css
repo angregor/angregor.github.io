@@ -86,13 +86,13 @@ a, a:hover, a:visited, a:link, a:active{
 }
 
 #featured {
-  height: 53%;
+  height: 55%;
   width: 100%;
   background-color: white;
 }
 
 #footer {
-  height: 7%;
+  height: 5%;
   width: 100%;
   background-color: black;
 }
