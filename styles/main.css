@@ -123,10 +123,12 @@ a, a:hover, a:visited, a:link, a:active{
   }
   body {
     height:100%;
+		width: 100%;
   }
 
   #menu_bar {
     height:10%;
+		width: 100%;
     padding-left: 2%;
     padding-top: 1%;
     margin-bottom: 1%;
@@ -134,7 +136,7 @@ a, a:hover, a:visited, a:link, a:active{
   }
 
 	#menu_opener_comb {
-	    height: 40%;
+	    height: 25%;
 	    width: 100%;
 	    background-image: linear-gradient(
 	      rgba(0, 0, 0, 0.25),
@@ -150,13 +152,13 @@ a, a:hover, a:visited, a:link, a:active{
 	}
 
   #footer {
-    height: 10%;
+    height: 5%;
     width: 100%;
     background-color: black;
   }
 
   .socialmedia {
-    width: 10%;
+    width: 20%;
     height: 100%;
     margin-right: 3%;
     display: inline-block;
@@ -173,7 +175,7 @@ a, a:hover, a:visited, a:link, a:active{
     height: 80%;
   }
   #featured {
-    height: 80%;
+    height: 70%;
     width: 100%;
     background-color: white;
   }
