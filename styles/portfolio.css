@@ -24,7 +24,7 @@ body {
   align: center;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top:7%;
+  padding-top:3%;
   padding-bottom: 7%;
   width: 100%;
   height: auto;
@@ -115,6 +115,9 @@ a, a:hover, a:visited, a:link, a:active{
 	align: center;
 }
 
+#featured_title {
+  padding-top: 5%;
+}
 
 
 
