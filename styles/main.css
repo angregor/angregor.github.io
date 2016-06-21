@@ -108,6 +108,21 @@ a, a:hover, a:visited, a:link, a:active{
   margin-top: 3%;
 }
 
+#profile {
+  float: left;
+  width: 35%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+#main_paragraph {
+  width: 65%;
+  float: right;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
 @media (max-width: 600px) {
   html {
     height: 110%;
@@ -162,7 +177,7 @@ a, a:hover, a:visited, a:link, a:active{
     float: right;
   }
 
-  .main_paragraph {
+  #main_paragraph {
     font-size: 1.1em;
     align: center;
     padding-left: 25%;
@@ -175,6 +190,10 @@ a, a:hover, a:visited, a:link, a:active{
     height: 80%;
     width: 100%;
     background-color: white;
+  }
+  #profile {
+    width: 100%;
+    padding: 0% 27% 0% 27%;
   }
 }
 */
