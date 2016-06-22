@@ -93,7 +93,7 @@ a, a:hover, a:visited, a:link, a:active{
   overflow: hidden;
 }
 
-#footer {
+footer {
   height: 5%;
   width: 100%;
   background-color: black;
@@ -163,7 +163,7 @@ a, a:hover, a:visited, a:link, a:active{
 	    color:white;
 	}
 
-  #footer {
+  footer {
     height: 7%;
     width: 100%;
     background-color: black;

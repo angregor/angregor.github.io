@@ -94,7 +94,7 @@ a, a:hover, a:visited, a:link, a:active{
   overflow: hidden;
 }
 
-#footer {
+footer {
   height: 10%;
   width: 100%;
   background-color: black;
